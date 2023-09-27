@@ -1,6 +1,6 @@
 {
-  "Name": "ДЛЯ TDM",
-  "Description": "Режим от dimasta600. ДЛЯ РАБОТЫ АДМ",
+  "Name": "<B><color=#FFE4B5>Закладка</color> <color=#B0E0E6>бомбы</color></B>",
+  "Description": "<B>v1.0.4 - фикс багов, блеклист, мелкие изменения. Режим от dimasta600.</B>\nЗакладка бомбы прямиком из CS:GO!",
   "StartClientVersion": 334,
   "MapFilter": {
     "IsBlank": false,
@@ -8,12 +8,22 @@
   },
   "MapLists": [
     {
-      "MapListId": 324,
-      "Name": "Официальные карты"
-    },
-    {
-      "MapListId": 581
+      "MapListId": 8370,
+      "Name": "Карты закладки бомбы"
     }
   ],
-  "Parameters": {}
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "MapRotation",
+        "DisplayName": "GmParams/MapRotation",
+        "Default": true
+      },
+      {
+        "Name": "short_game",
+        "DisplayName": "Короткая игра (16 раундов вместо 30)",
+        "Default": true
+      }
+    ]
+  }
 }
